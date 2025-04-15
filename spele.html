@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="lv-LV">
+<head>
+<!-- Formāta avots -->
+<link rel="stylesheet" href="format.css">
+  <title>Spēle</title>
+</head>
+<body>
+<h1>BlitzB</h1>
+<!--Navigācijas josla-->
+<ul id="nav">
+  <li><a href="pamats.html" class="active">Sākums</a></li>
+  <li><a href="spele.html">Viena spēlētāja spēle</a></li>
+  <li><a href="atsauces.html">Atsauces</a></li>
+  <li><a href="vairakspeletaji.html">Vairāku spēlētāju spēle</a></li>
+</ul>
+<h3 onclick="toggleSettings()">Iestatījumi</h3>
+<!-- darbību izvēlne-->
+<div class="settings">
+<button class="mode" id="+" onclick="select('+')"></button>
+<label for="+">saskaitīšana</label><br>
+</div>
+<div class="settings">
+<button class="mode" id="-" onclick="select('-')"></button>
+<label for="-">atņemšana</label><br>
+</div>
+<div class="settings">
+<button class="mode" id="*" onclick="select('*')"></button>
+<label for="*">reizināšana</label><br>
+</div>
+<div class="settings">
+<button class="mode" id="/" onclick="select('/')"></button>
+<label for="/">dalīšana</label><br>
+</div>
+<div class="settings">
+<label for="playMode">Spēles režīms: </label>
+<!--spēles režīms-->
+<select name="playMode" id="playMode">
+  <option value="classic">Parastais</option>
+  <option value="streak">Plānā ledus skrējiens</option>
+</select>
+</div>
+<!--Ievades lauks skaitļu ierobežojumam-->
+<div class="settings">
+<span >Skaitļu ierobežojums: </span>
+<input type="text" onblur="getLimit(this)">
+</div>
+<!--Ievades lauks laika ierobežojumam-->
+<div class="settings">
+<span>Laika ierobežojums sekundēs: </span>
+<input type="text"  id="time" onblur="getTime(this)">
+</div>
+<!--Piemērs, paziņojumi un atbildes ievades lauks-->
+<h3 class="gameplay">Spēles lauks</h3>
+<p id="task" class="gameplay">Novietojiet kursoru blakus, lai sāktu:<p>
+<div class="gameplay">
+<input type="text"  id="answer" onfocus="game()" onkeydown="insert(event)" onblur="reset()">
+</div>
+<h3 id="countdown" class="gameplay"></h3>
+</body>
+<!--JS kods-->
+<script src="scripting.js"></script>
+</html>
