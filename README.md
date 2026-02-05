@@ -7,3 +7,24 @@ kāpēc vērts risinājumu izstrādāt -- Prasme lielā ātrumā aprēķināt da
 **Izmantotās tehnoloģijas**
 PHP, JavaScript, HTML, SQL
 Piegādes formāts - mājaslapa
+Darba plāns (Visus darbus veic Nikita Baranovs)
+#
+1. Nedēļa - Funkciju rakstā sasaistīt funkciju izteiksmju rakstīšanu ar tastatūru (pakāpes, trigonometriskās funkcijas, ciklometriskās funkcijas, hiperboliskās funkcijas)
+#
+2. Nedēļa - Pievienot atvasināšanas iespējas (Front end)
+#
+3. Nedēļa - pievienot integrēšanas iespējas (Front end)
+#
+4. Nedēļa - padarīt pieejamu globālajā tīmeklī
+#
+5. Nedēļa - Nodrošināt lietotāju sistēmu (lietotājvārdi, paroles)
+#
+6. Nedēļa - Nodrošināt standartizētos režīmus sasniegumiem un sasniegumus (saskaitīšanai, atņemšanai, reizināšanai, dalīšanai, atvasināšanai, integrēšanai)
+#
+7. Nedēļa - Nodrošināt spēļu istabas
+#
+8. Nedēļa - Nodrošināt botus, pielāgot botus
+#
+9. Nedēļa - Mājaslapas dizains (Front end)
+#
+10. Nedēļa - Lietotāju pamācības izveide (rakstiskas)
