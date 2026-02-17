@@ -28,3 +28,11 @@ Darba plāns (Visus darbus veic Nikita Baranovs)
 9. Nedēļa - Mājaslapas dizains (Front end)
 #
 10. Nedēļa - Lietotāju pamācības izveide (rakstiskas)
+**Funkcionālie noteikumi**
+1. Var pieslēgties kontam ar lietotājvārdu un paroli.
+2. Var spēlēt vienatnē.
+3. Var spēlēt ar citiem spēlētājiem un botiem.
+**Nefunkcionālie noteikumi**
+1. PVP <=1 sekundes aizture
+2. Var uzturēt vismaz 10000 spēlētāju
+3. Noturība pret DDoS uzbrukumiem 
